@@ -1,8 +1,8 @@
 {
   "name": "peonify",
   "version": "1.0.0",
-  "description": "A class library for implementing background task services",
-  "main": "index.js",
+  "description": "A class library for implementing background task services in a neat and standardized fashion",
+  "main": "lib/peonify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

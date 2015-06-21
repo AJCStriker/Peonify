@@ -75,11 +75,14 @@ module.exports = EmailTask
 index.js
 ```
 var simpleTaskGenerator = require('./task-generator.js')
+
+taskQueue.addStream(simpleTaskGenerator)
 ```
 
 task-generator.js
 ```
-var Stream = require('peonify').Stream
+var Stream = require('peonify').Stream,
+    Task = require('poenify').Task
 
 class TaskGenerator extends Stream {
 
@@ -89,7 +92,7 @@ class TaskGenerator extends Stream {
 
         // The method will be called periodically by the processor when the queue is becoming depleted.
 
-        return Task
+        return new Task(...,...,...)
     }
 
     *notifyComplete() {
