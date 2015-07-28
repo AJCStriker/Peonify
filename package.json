@@ -1,6 +1,6 @@
 {
   "name": "peonify",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A class library for implementing background task services in a neat and standardized fashion",
   "main": "lib/peonify.js",
   "scripts": {
